@@ -18,6 +18,7 @@
 		4D5C27D01C73807400783B73 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5C27CF1C73807400783B73 /* libsqlite3.tbd */; };
 		4D5C27D21C7420F700783B73 /* UserAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C27D11C7420F700783B73 /* UserAccounts.swift */; };
 		4D6F82CF1C730B3D0087C8E8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F82CE1C730B3D0087C8E8 /* Podfile */; };
+		4DF9A07A1C7450C000E0DE2A /* GeolocationGeoPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9A0791C7450C000E0DE2A /* GeolocationGeoPoints.swift */; };
 		5EBF92818F11BB43914E4130 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F522B7C2586B0DFB78C80249 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		4D5C27CF1C73807400783B73 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		4D5C27D11C7420F700783B73 /* UserAccounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccounts.swift; sourceTree = "<group>"; };
 		4D6F82CE1C730B3D0087C8E8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4DF9A0791C7450C000E0DE2A /* GeolocationGeoPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeolocationGeoPoints.swift; sourceTree = "<group>"; };
 		932CBA013B49149CCD963161 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DB2AF2DE7133F7314A3F126A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F522B7C2586B0DFB78C80249 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 				4D0055531C7341F200367F4F /* SavingImageSoundFile.swift */,
 				4D0055551C7355E600367F4F /* LocalDatastore.swift */,
 				4D5C27D11C7420F700783B73 /* UserAccounts.swift */,
+				4DF9A0791C7450C000E0DE2A /* GeolocationGeoPoints.swift */,
 				4D41D9651C730AB6002315F6 /* Main.storyboard */,
 				4D41D9681C730AB6002315F6 /* Assets.xcassets */,
 				4D41D96A1C730AB6002315F6 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF9A07A1C7450C000E0DE2A /* GeolocationGeoPoints.swift in Sources */,
 				4D0055521C730C1F00367F4F /* bridgingHeader.m in Sources */,
 				4D0055541C7341F200367F4F /* SavingImageSoundFile.swift in Sources */,
 				4D0055561C7355E600367F4F /* LocalDatastore.swift in Sources */,

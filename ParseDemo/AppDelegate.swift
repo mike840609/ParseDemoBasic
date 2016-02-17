@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        //Document
+        //https://www.parse.com/docs/ios/guide
+        
 
         //Parse LocalStore
         Parse.enableLocalDatastore()
